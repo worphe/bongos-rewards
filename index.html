@@ -1,1 +1,8 @@
 window.location.href = https://forms.gle/pPFU7HoLiztMQHCaA;
+function redirectToForm(isOfAge) {
+  if (isOfAge) {
+    window.location.href = "https://yourformurl.com"; // replace with your Google Form URL
+  } else {
+    document.getElementById("ageCheck").innerHTML = "<h1>Sorry, you must be 21+ to participate in Bongos Rewards.</h1>";
+  }
+}
