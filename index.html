@@ -6,3 +6,8 @@ function redirectToForm(isOfAge) {
     document.getElementById("ageCheck").innerHTML = "<h1>Sorry, you must be 21+ to participate in Bongos Rewards.</h1>";
   }
 }
+<div class="container" id="ageCheck">
+  <h1>Are you 21 or older?</h1>
+  <button onclick="redirectToForm(true)">Yes</button>
+  <button onclick="redirectToForm(false)">No</button>
+</div>
